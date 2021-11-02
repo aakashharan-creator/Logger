@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Debug
+Version: 0.0.1
+Summary: Debugging tools
+Home-page: UNKNOWN
+Author: Aakash Haran
+Author-email: <aakas.haran01@gmail.com>
+License: UNKNOWN
+Keywords: python,debug
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+
+
