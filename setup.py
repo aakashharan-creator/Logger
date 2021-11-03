@@ -13,7 +13,7 @@ LONG_DESCRIPTION = 'A package that gives users access to several debugging funct
 
 # Setting up
 setup(
-    name='logger',
+    name='Debug',
     version=VERSION,
     author='Aakash Haran',
     author_email='aakash.haran01@gmail.com',
@@ -22,6 +22,6 @@ setup(
     long_description_content_type="text/markdown",
     url='https://github.com/Luna-Cake/Logger',
     license='MIT',
-    packages=['logger'],
+    packages=['Debug'],
     install_requires=[],
 )
