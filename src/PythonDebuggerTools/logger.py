@@ -1,6 +1,6 @@
 import inspect
 
-def logger(important_params=None):
+def logger(important_params=None, output_file=None):
     def wrapper(func):
         def inner(*args, **kwargs):
             values = [arg for arg in args]
@@ -9,7 +9,8 @@ def logger(important_params=None):
 
             curframe = inspect.currentframe()
             calframe = inspect.getouterframes(curframe, 2)
-            
+            output_line = ""
+
             if important_params:
                 param_list = []
                 if important_params:
@@ -18,9 +19,12 @@ def logger(important_params=None):
                             if str(p) == param:
                                 param_list.append(str(param + "=" + str(values[i])))
                 param_list = ', '.join(param_list)
-                print("Executing function: [" + func.__name__ + "] Called by: [" + calframe[1][3] + "] Selected Args: " + param_list + " - Result: " + str(result))
+                output_line = "Executing function: [" + func.__name__ + "] Called by: [" + calframe[1][3] + "] Selected Args: " + param_list + " - Result: " + str(result)
             else:
-                print("Executing function: [" + func.__name__ + "] Called by: [" + calframe[1][3] + "]" + "- Result: " + str(result))
+                output_line = "Executing function: [" + func.__name__ + "] Called by: [" + calframe[1][3] + "]" + "- Result: " + str(result)
+            
+            print(output_line)
+            
             return result
         return inner
     return wrapper

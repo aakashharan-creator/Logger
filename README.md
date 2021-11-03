@@ -4,7 +4,7 @@ This is a collection of useful debugging tools to make your python development p
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install PythonDebuggerTools-0.0.12
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install PythonDebuggerTools-0.0.13
 
 ```bash
 python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps PythonDebuggerTools==[latest-version]
