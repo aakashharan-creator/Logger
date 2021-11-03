@@ -4,7 +4,7 @@ This is a collection of useful debugging tools to make your python development p
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install PythonDebuggerTools.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install PythonDebuggerTools-0.0.12
 
 ```bash
 python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps PythonDebuggerTools==[latest-version]
@@ -22,4 +22,9 @@ def add(x, y):
 
 ## Key-word arguments
 * **important_params**
-  * a python list of paramters to print in the debugging console
+  * a python list of paramaters to print in the standard output
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
