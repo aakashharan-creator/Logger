@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/PythonDebuggerTools/__init__.py
+src/PythonDebuggerTools/logger.py
+src/PythonDebuggerTools.egg-info/PKG-INFO
+src/PythonDebuggerTools.egg-info/SOURCES.txt
+src/PythonDebuggerTools.egg-info/dependency_links.txt
+src/PythonDebuggerTools.egg-info/top_level.txt
