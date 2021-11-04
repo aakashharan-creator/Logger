@@ -1,9 +1,6 @@
 import inspect
 
 class Debug:
-    def __init__(self):
-        self.DEBUG = True
-
     def logger(self, important_params=None, output_file=None):
         def wrapper(func):
             def inner(*args, **kwargs):
@@ -33,7 +30,11 @@ class Debug:
                 return result
             return inner
         return wrapper
-    
+
+class Log:    
+    def __init__(self):
+        self.DEBUG = True
+
     def log(self, *args):
         if self.DEBUG:
             output_line = ' '.join([str(arg) for arg in args])
