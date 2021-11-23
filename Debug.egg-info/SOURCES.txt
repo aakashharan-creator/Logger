@@ -1,9 +1,0 @@
-README.md
-setup.py
-Debug/__init__.py
-Debug/logger.py
-Debug.egg-info/PKG-INFO
-Debug.egg-info/SOURCES.txt
-Debug.egg-info/dependency_links.txt
-Debug.egg-info/requires.txt
-Debug.egg-info/top_level.txt
